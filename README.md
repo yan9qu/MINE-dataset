@@ -31,11 +31,11 @@ We collect raw data from twitter with keywords, 2019-2022.
 
 Our data annotation process consists of the following steps:
 
-    We divide our data into smaller batches, each containing about 1.5k samples.
-    We use the first batch to train two groups of annotators, to cross validate the accuracy of annotations. We have experts in these domains who review and provide feedback on the annotations of each sample in this batch to train the annotators.
-    For the subsequent batches, the two groups of annotators work independently, without seeing each other’s annotations. We measure the agreement between the two groups using a metric called differentiation, which is the percentage of samples that have different annotations from the two groups. For multi-categorized intention labels, we consider that having subsets is the result of annotation to reach a common understanding.
-    For the batches that have a differentiation higher than 20\%, we involve the experts again to check and resolve the discrepancies between the two groups. The experts also give feedback to the annotators to improve their performance and consistency.
-    We repeat this process until we annotate all the batches and ensure that the differentiation of the entire data set is within 20%.
+We divide our data into smaller batches, each containing about 1.5k samples.
+We use the first batch to train two groups of annotators, to cross validate the accuracy of annotations. We have experts in these domains who review and provide feedback on the annotations of each sample in this batch to train the annotators.
+For the subsequent batches, the two groups of annotators work independently, without seeing each other’s annotations. We measure the agreement between the two groups using a metric called differentiation, which is the percentage of samples that have different annotations from the two groups. For multi-categorized intention labels, we consider that having subsets is the result of annotation to reach a common understanding.
+For the batches that have a differentiation higher than 20%, we involve the experts again to check and resolve the discrepancies between the two groups. The experts also give feedback to the annotators to improve their performance and consistency.
+We repeat this process until we annotate all the batches and ensure that the differentiation of the entire data set is within 20%.
 
 
 #### Dataset Statistics
@@ -89,7 +89,7 @@ Dataset Description:
 2. Install PyTorch (Cuda version 11.2)
 
    ```
-   conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+   conda install pytorch torchvision torchaudio cudatoolkit=11.2 -c pytorch
    ```
 
 3. Clone the MINE-dataset repository.
