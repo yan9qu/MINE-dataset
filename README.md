@@ -111,7 +111,10 @@ Dataset Description:
 
 In order to prevent users’ willingness to object to the data being collected, we provid the [id numbers](./tweets_id.txt) of all collected tweets and provid a [questionnaire](https://2j3zidpuszj.typeform.com/to/jMNKxNT6). If your tweets are collected and you don’t want them to be shared, you can fill out the questionnaire and we will check and update the dataset regularly. Note: MINE only contains the features extracted from your tweets, not the original tweets.
 
-## 6. Acknowledgements
+## 6. Terms of Use: 
+This dataset is intended for research purposes only, and it should not be used for any illegal, unethical, or harmful activities. The dataset contains tweets that express emotions and intentions, which may reflect the personal views, preferences, or vulnerabilities of the tweet authors. You should respect the privacy and dignity of the tweet authors and avoid any actions that may infringe their rights or cause them distress. You should also acknowledge the limitations and biases of the dataset and the analysis, and avoid any generalizations or misinterpretations that may lead to incorrect or misleading conclusions. You are solely responsible for any consequences that may arise from your use or misuse of the dataset. The original authors of the dataset are not liable for any damages or losses that may result from your use or misuse of the dataset.
+
+## 7. Acknowledgements
 
 Some of the codes in this repo are adapted from the following repos, and we are greatly thankful to them: [MIntRec](https://github.com/thuiar/MIntRec), [TalkNet](https://github.com/TaoRuijie/TalkNet-ASD), [SyncNet](https://github.com/joonson/syncnet_python).
 
